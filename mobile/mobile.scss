@@ -1,0 +1,17 @@
+.mobile-view .topic-list .num.posts-map button {
+    font-size: 75%;
+    transform: translatey(-5px);
+}
+
+.mobile-view .topic-list .topic-item-stats .num.activity {
+    flex: 1 0 auto;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+.mobile-view .topic-list .topic-item-stats .num.activity > svg:first-child{
+    transform: translate(-3px, 3px);
+}
+.mobile-view .topic-list .topic-item-stats .num.activity > a:first-child{
+    transform: translate(-3px, -1px);
+}
+
