@@ -1,8 +1,29 @@
 .mobile-view .topic-list {
-    .num.posts-map.posts.topic-list-data {
-        font-size: var(--font-up-1);
+  .num.posts-map.posts.topic-list-data {
+    font-size: var(--font-up-1);
+  }
+  .latest-poster-and-time__container {
+    order: 999;
+    flex: 1 0 auto;
+    display: inline-flex;
+    justify-content: end;
+  }
+  .latest-poster-and-time {
+    display: flex;
+    gap: 0.25em;
+    align-items: center;
+  }
+  .num.activity.last {
+    display: none;
+  }
+  .topic-item-stats__category-tags {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    .excerpt {
+      width: 100%;
     }
-    .lastposter-or-clock {
-        margin-left: 5px;
-    }
+  }
 }
